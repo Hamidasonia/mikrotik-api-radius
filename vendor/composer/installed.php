@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => 'v11.0.6',
-        'version' => '11.0.6.0',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '22ff3ab188701dca257c56ac44a58bb722458d6f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -82,6 +82,15 @@
             'reference' => 'ebaaf5be6c0286928352e054f2d5125608e5405e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../egulias/email-validator',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'evilfreelancer/routeros-api-php' => array(
+            'pretty_version' => '1.5.2',
+            'version' => '1.5.2.0',
+            'reference' => 'f247a4cfa6126a8d0302dbbc4a7a7520cbb0d8a3',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../evilfreelancer/routeros-api-php',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -380,9 +389,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v11.0.6',
-            'version' => '11.0.6.0',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '22ff3ab188701dca257c56ac44a58bb722458d6f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -748,8 +757,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -985,6 +994,15 @@
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'spatie/ssh' => array(
+            'pretty_version' => '1.10.1',
+            'version' => '1.10.1.0',
+            'reference' => '8a69221ec27112bf463e6da78b21f17c047abd75',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../spatie/ssh',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'symfony/clock' => array(
             'pretty_version' => 'v7.0.7',
